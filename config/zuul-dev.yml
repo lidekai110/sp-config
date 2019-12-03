@@ -1,6 +1,12 @@
 spring:
   application:
     name: zuul
+    
+  rabbitmq:
+    host: 192.168.64.5
+    port: 5672
+    username: admin
+    password: admin
  
  #注册沿用之前的端口号  只需要把之前项目关闭即可
 server:
